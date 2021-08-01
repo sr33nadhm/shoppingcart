@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React, { Component } from "react";
 import Home from "./major/home/Home";
+import Products from "./major/products/Products";
 
 class App extends Component {
   render() {
@@ -17,7 +18,21 @@ class App extends Component {
                 return (
                   <div>
                     <main className="main-page">
-                      <Home></Home>
+                      <Home />
+                    </main>
+                  </div>
+                );
+              }}
+            />
+            <Route
+              path="/products"
+              exact={true}
+              strict
+              render={(props) => {
+                return (
+                  <div>
+                    <main className="main-page">
+                      <Products />
                     </main>
                   </div>
                 );
