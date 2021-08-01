@@ -1,0 +1,7 @@
+{
+    "name": "ionicandroidreact",
+    "integrations": {
+        "capacitor": {}
+    },
+    "type": "react"
+}

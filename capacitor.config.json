@@ -1,0 +1,8 @@
+{
+    "appId": "io.ionic.ionicandroidreact",
+    "appName": "ionicandroidreact",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "build",
+    "cordova": {}
+}
