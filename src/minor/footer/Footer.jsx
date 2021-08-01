@@ -26,22 +26,17 @@ export class Footer extends Component {
                                             </li>
                                             <li>
                                                 <a href="/">
-                                                    <i className="fa fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="/">
-                                                    <i className="fa fa-google-plus"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="/">
-                                                    <i className="fa fa-linkedin"></i>
+                                                    <i className="fa fa-whatsapp"></i>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/">
                                                     <i className="fa fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/">
+                                                    <i className="fa fa-youtube-play"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -78,7 +73,6 @@ export class Footer extends Component {
                                                 {/* End Col */}
                                             </div>
                                             {/* End Contact Row */}
-
                                         </div>
                                         {/* End Footer Widget */}
                                     </div>
@@ -95,7 +89,7 @@ export class Footer extends Component {
                                             </div>
                                             <ul>
                                                 <li>
-                                                    <a href="/">About us</a>
+                                                    <a href="/">Products</a>
                                                 </li>
                                                 <li>
                                                     <a href="/">Services</a>
@@ -106,7 +100,7 @@ export class Footer extends Component {
                                                     <a href="/">Contact us</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/">Blog</a>
+                                                    <a href="/">About us</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -126,7 +120,7 @@ export class Footer extends Component {
                     <div className="copyright">
                         <div className="container">
                             <div className="row">
-                                <div className="col-md-6">
+                                <div className="col-md-12 text-center">
                                     <span>Copyright © 2019, All Right Reserved Seobin</span>
                                 </div>
                                 {/* End Col */}

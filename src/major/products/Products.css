@@ -1,0 +1,12 @@
+.card-row {
+  margin: auto;
+  justify-content: center;
+}
+.card {
+  width: 18rem;
+  color: black;
+  margin: 20px;
+}
+.card p {
+  color: black;
+}
