@@ -6,11 +6,10 @@ export class NavBar extends Component {
         return (
             <div>
                 <nav className={this.props["for"] === "home" ? "navbar navbar-expand-lg navbar-dark bg-clear" : "navbar navbar-expand-lg navbar-dark bg-custom"}>
-                    <a className="navbar-brand" href="/">Crackers</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-
+                    <a className="navbar-brand" href="/">Crackers</a>
                     <div className="collapse navbar-collapse" id="navbarToggler">
                         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                             <li className={this.props["for"] === "home" ? "nav-item active" : "nav-item"} >

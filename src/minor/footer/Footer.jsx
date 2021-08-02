@@ -21,22 +21,22 @@ export class Footer extends Component {
                                         <ul>
                                             <li>
                                                 <a href="/">
-                                                    <i className="fa fa-facebook"></i>
+                                                    <i className="fa fa-facebook-square fa-2x"></i>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/">
-                                                    <i className="fa fa-whatsapp"></i>
+                                                    <i className="fa fa-whatsapp fa-2x"></i>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/">
-                                                    <i className="fa fa-instagram"></i>
+                                                    <i className="fa fa-instagram fa-2x"></i>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/">
-                                                    <i className="fa fa-youtube-play"></i>
+                                                    <i className="fa fa-youtube-play fa-2x"></i>
                                                 </a>
                                             </li>
                                         </ul>

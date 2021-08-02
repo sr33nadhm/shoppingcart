@@ -156,17 +156,21 @@ p {
   margin-right: 5px;
   color: #fff;
 }
-.dk-footer-box-info .footer-social-link a i.fa-facebook {
-  background-color: #3b5998;
+.dk-footer-box-info .footer-social-link a i.fa-facebook-square {
+  color: #3b5998;
+  background-color: rgba(0, 0, 0, 0);
 }
 .dk-footer-box-info .footer-social-link a i.fa-whatsapp {
-  background-color: #1e7e34;
+  color: #1e7e34;
+  background-color: rgba(0, 0, 0, 0);
 }
 .dk-footer-box-info .footer-social-link a i.fa-youtube-play {
-  background-color: #ff2104;
+  color: #ff2104;
+  background-color: rgba(0, 0, 0, 0);
 }
 .dk-footer-box-info .footer-social-link a i.fa-instagram {
-  background-color: #fd007f;
+  color: #fd007f;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .footer-info-text {
