@@ -104,14 +104,13 @@ p {
 
 .dk-footer {
   padding: 75px 0 0;
-  background-color: #151414;
+  background-color: var(--main-bg-color);
   position: relative;
   z-index: 2;
 }
 .dk-footer .contact-us {
   margin-top: 0;
   margin-bottom: 30px;
-  padding-left: 80px;
 }
 .dk-footer .contact-us .contact-info {
   margin-left: 50px;
@@ -358,7 +357,7 @@ p {
 }
 @media only screen and (max-width: 768px) {
   .animate-border {
-    width: 115px;
+    width: 75vw;
   }
   .footer-container {
     margin-left: 0px !important;
@@ -373,8 +372,8 @@ p {
       transform: translateX(0px);
     }
     100% {
-      -webkit-transform: translateX(113px);
-      transform: translateX(113px);
+      -webkit-transform: translateX(65vw);
+      transform: translateX(65vw);
     }
   }
 
@@ -384,8 +383,8 @@ p {
       transform: translateX(0px);
     }
     100% {
-      -webkit-transform: translateX(113px);
-      transform: translateX(113px);
+      -webkit-transform: translateX(65vw);
+      transform: translateX(65vw);
     }
   }
 }

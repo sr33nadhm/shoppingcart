@@ -10,7 +10,7 @@ export class Footer extends Component {
                         <div className="row">
                             <div className="col-md-12 col-lg-4 footer-container">
                                 <div className="dk-footer-box-info">
-                                    <a href="index.html" className="footer-logo">
+                                    <a href="/" className="footer-logo">
                                         <img src="https://cdn.pixabay.com/photo/2016/11/07/13/04/yoga-1805784_960_720.png" alt="footer_logo" className="img-fluid" />
                                     </a>
                                     <p className="footer-info-text">
@@ -121,7 +121,7 @@ export class Footer extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-12 text-center">
-                                    <span>Copyright © 2019, All Right Reserved Seobin</span>
+                                    <span>Copyright © 2021, All Right Reserved</span>
                                 </div>
                                 {/* End Col */}
                             </div>
@@ -143,4 +143,4 @@ export class Footer extends Component {
     }
 }
 
-export default Footer
+export default Footer;

@@ -1,3 +1,16 @@
 .bg-custom {
-  background-color: #239ef5;
+  background-color: var(--main-bg-color);
+}
+.bg-clear {
+  background-color: var(--main-bg-color);
+}
+
+@media only screen and (min-width: 769px) {
+  .bg-clear {
+    background-color: #15141400;
+    z-index: 9999;
+  }
+  .bg-clear:hover {
+    background-color: #0000009f;
+  }
 }

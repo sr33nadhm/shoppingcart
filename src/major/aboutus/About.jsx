@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-import Carousel from '../../minor/carousel/Carousel';
 import Footer from '../../minor/footer/Footer';
 import NavBar from '../../minor/navbar/NavBar';
 
-export class Home extends Component {
+export class About extends Component {
     render() {
         return (
             <div>
-                <NavBar for="home" />
-                <Carousel />
+                <NavBar for="about" />
                 <Footer />
             </div>
         )
     }
 }
 
-export default Home;
+export default About;

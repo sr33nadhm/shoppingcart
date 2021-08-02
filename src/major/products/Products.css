@@ -10,3 +10,11 @@
 .card p {
   color: black;
 }
+.card-fit {
+  object-fit: cover;
+  height: 200px;
+}
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+}
