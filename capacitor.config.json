@@ -1,6 +1,6 @@
 {
-    "appId": "io.ionic.ionicandroidreact",
-    "appName": "ionicandroidreact",
+    "appId": "io.ionic.shoppingcart",
+    "appName": "shoppingcart",
     "bundledWebRuntime": false,
     "npmClient": "npm",
     "webDir": "build",
