@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import "./Footer.css";
 
 export class Footer extends Component {
@@ -10,9 +11,9 @@ export class Footer extends Component {
                         <div className="row">
                             <div className="col-md-12 col-lg-4 footer-container">
                                 <div className="dk-footer-box-info">
-                                    <a href="/" className="footer-logo">
+                                    <Link to="/" className="footer-logo">
                                         <img src="https://cdn.pixabay.com/photo/2016/11/07/13/04/yoga-1805784_960_720.png" alt="footer_logo" className="img-fluid" />
-                                    </a>
+                                    </Link>
                                     <p className="footer-info-text">
                                         Reference site about Lorem Ipsum.
                                     </p>
@@ -20,24 +21,24 @@ export class Footer extends Component {
                                         <h3>Follow us</h3>
                                         <ul>
                                             <li>
-                                                <a href="/">
+                                                <Link to="/">
                                                     <i className="fa fa-facebook-square fa-2x"></i>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="/">
+                                                <Link to="/">
                                                     <i className="fa fa-whatsapp fa-2x"></i>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="/">
+                                                <Link to="/">
                                                     <i className="fa fa-instagram fa-2x"></i>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="/">
+                                                <Link to="/">
                                                     <i className="fa fa-youtube-play fa-2x"></i>
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -89,18 +90,18 @@ export class Footer extends Component {
                                             </div>
                                             <ul>
                                                 <li>
-                                                    <a href="/">Products</a>
+                                                    <Link to="/">Products</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="/">Services</a>
+                                                    <Link to="/">Services</Link>
                                                 </li>
                                             </ul>
                                             <ul>
                                                 <li>
-                                                    <a href="/">Contact us</a>
+                                                    <Link to="/">Contact us</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="/">About us</a>
+                                                    <Link to="/">About us</Link>
                                                 </li>
                                             </ul>
                                         </div>

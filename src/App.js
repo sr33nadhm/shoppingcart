@@ -6,6 +6,10 @@ import About from "./major/aboutus/About";
 import Products from "./major/products/Products";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { items: [], total: 0 };
+  }
   render() {
     return (
       <React.Fragment>

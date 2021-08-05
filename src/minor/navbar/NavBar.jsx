@@ -1,7 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import "./NavBar.css";
 
 export class NavBar extends Component {
+    constructor(props) {
+        super(props);
+        this.state = { items: [], total: 0 };
+    }
     render() {
         return (
             <div>
@@ -9,25 +14,25 @@ export class NavBar extends Component {
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <a className="navbar-brand" href="/">Crackers</a>
+                    <Link to="/" className="navbar-brand">Crackers</Link>
                     <div className="collapse navbar-collapse" id="navbarToggler">
                         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                             <li className={this.props["for"] === "home" ? "nav-item active" : "nav-item"} >
-                                <a className="nav-link" href="/">Home <span className="sr-only"></span></a>
+                                <Link to="/" className="nav-link">Home <span className="sr-only"></span></Link>
                             </li>
                             <li className={this.props["for"] === "products" ? "nav-item active" : "nav-item"}>
-                                <a className="nav-link" href="/products">Products</a>
+                                <Link to="/products" className="nav-link">Products</Link>
                             </li>
                             <li className={this.props["for"] === "services" ? "nav-item active" : "nav-item"}>
-                                <a className="nav-link" href="/services">Services</a>
+                                <Link to="/services" className="nav-link">Services</Link>
                             </li>
                             <li className={this.props["for"] === "about" ? "nav-item active" : "nav-item"}>
-                                <a className="nav-link" href="/about">About Us</a>
+                                <Link to="/about" className="nav-link">About Us</Link>
                             </li>
                         </ul>
                         <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li className={this.props["for"] === "cart" ? "nav-item active" : "nav-item"} >
-                                <a className="nav-link" href="/">Cart <span className="sr-only"></span></a>
+                                <Link to="/" className="nav-link">Cart <span className="sr-only"></span></Link>
                             </li>
                         </ul>
                     </div>
